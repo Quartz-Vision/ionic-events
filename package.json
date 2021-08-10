@@ -31,7 +31,7 @@
     "@babel/preset-env": "^7.15.0"
   },
   "dependencies": {
-    "@quartz-vision/vue-events-helper": "^1.0.7"
+    "@quartz-vision/vue-events-helper": "^1.0.9"
   },
   "peerDependencies": {
     "@ionic/vue": "^5.0.0"
