@@ -1,6 +1,9 @@
-import VVV from '@quartz-vision/vue-events-helper';
+import VueEventsHelper from '@quartz-vision/vue-events-helper';
+const quartz = new VueEventsHelper('quartz');
 
-const aaa = VVV;
+import LongTap from './LongTap.js';
+quartz.register('long-tap', LongTap);
 
-export default aaa; 
+
+export default quartz;
 

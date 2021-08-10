@@ -32,5 +32,8 @@
   },
   "dependencies": {
     "@quartz-vision/vue-events-helper": "^1.0.7"
+  },
+  "peerDependencies": {
+    "@ionic/vue": "^5.0.0"
   }
 }
