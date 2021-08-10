@@ -1,11 +1,12 @@
 {
   "name": "@quartz-vision/ionic-events",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Vue plugin that adds some events based on ionic's gestures",
   "main": "index.js",
+  "types": "./dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist && tsc"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,8 @@
   "devDependencies": {
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
-    "@babel/preset-env": "^7.15.0"
+    "@babel/preset-env": "^7.15.0",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
     "@quartz-vision/vue-events-helper": "^1.0.9"
