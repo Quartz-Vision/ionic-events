@@ -1,6 +1,6 @@
 {
   "name": "@quartz-vision/ionic-events",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue plugin that adds some events based on ionic's gestures",
   "main": "index.js",
   "types": "./dist/main.js",
